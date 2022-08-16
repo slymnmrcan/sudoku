@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  line-height: 0px;
+  border-spacing: 0px;
+}
+
+table,
+tr,
+td {
+  margin: 0px;
+  padding: 0px;
+}
+
+td {
+  margin: 0px;
+  padding: 0px;
+  line-height: 0px;
+  border: 1px solid;
+
+}
+
+tr>td:nth-child(3),
+tr>td:nth-child(6) {
+  border-right-width: 3px;
+}
+
+tr:nth-child(3)>td,
+tr:nth-child(6)>td {
+  border-bottom-width: 3px;
+}
+
+input {
+  font-size: 40px;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.borderles {
+  border: none;
+}
+
+.App {
+  text-align: center;
+  margin: auto;
+  margin-top: 160px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.square {
+  width: 60px;
+  height: 60px;
+}
+
+.space {
+  margin-top: 30px;
+}
+
+.buttons {
+  margin-left: 780px;
+  margin-top: 20px;
+}
+
+.spacebuttons {
+
+  margin-right: 180px;
+  margin-left: 10px;
+}
+
+
+.fontsize input:focus {
+  color: rgb(4, 4, 4);
+  font-size: 55px;
+  -webkit-box-shadow: inset 0px 0px 5px 1px rgba(240, 246, 231, 0.75);
+  -moz-box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+}
+
+.focusSatir {
+  color: rgb(220, 77, 20);
+  font-size: 50px;
+  -webkit-box-shadow: inset 0px 0px 5px 1px rgba(240, 246, 231, 0.75);
+  -moz-box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.focusVerication {
+  color: rgb(220, 77, 20);
+  font-size: 50px;
+  -webkit-box-shadow: inset 0px 0px 5px 1px rgba(240, 246, 231, 0.75);
+  -moz-box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+}
